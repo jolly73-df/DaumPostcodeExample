@@ -1,4 +1,4 @@
-package com.daddyface.daumpostcodeexample;
+package com.example.daumpostcodeexample;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
@@ -8,6 +8,7 @@ import android.widget.Button;
 import android.widget.EditText;
 
 public class MainActivity extends AppCompatActivity {
+
 
     private static final int SEARCH_ADDRESS_ACTIVITY = 10000;
 

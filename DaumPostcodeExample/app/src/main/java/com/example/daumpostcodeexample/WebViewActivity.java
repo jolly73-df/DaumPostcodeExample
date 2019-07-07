@@ -1,4 +1,4 @@
-package com.daddyface.daumpostcodeexample;
+package com.example.daumpostcodeexample;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
@@ -24,7 +24,6 @@ public class WebViewActivity extends AppCompatActivity {
             setResult(RESULT_OK, intent);
             finish();
 
-
         }
     }
 
@@ -49,13 +48,6 @@ public class WebViewActivity extends AppCompatActivity {
         //browser.loadUrl("file:///android_asset/daum.html");
         //browser.loadUrl("http://www.daddyface.com/public/daum.html");
         browser.loadUrl("http://cdn.rawgit.com/jolly73-df/DaumPostcodeExample/master/DaumPostcodeExample/app/src/main/assets/daum.html");
-
-
-
-
-
-
-
 
     }
 }
