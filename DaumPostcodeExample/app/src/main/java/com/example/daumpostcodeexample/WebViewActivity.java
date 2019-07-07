@@ -47,7 +47,10 @@ public class WebViewActivity extends AppCompatActivity {
 
         //browser.loadUrl("file:///android_asset/daum.html");
         //browser.loadUrl("http://www.daddyface.com/public/daum.html");
-        browser.loadUrl("http://cdn.rawgit.com/jolly73-df/DaumPostcodeExample/master/DaumPostcodeExample/app/src/main/assets/daum.html");
+        //browser.loadUrl("http://cdn.rawgit.com/jolly73-df/DaumPostcodeExample/master/DaumPostcodeExample/app/src/main/assets/daum.html");
+        browser.loadUrl("http://www.inspond.com/daum.html");
+        // 경고! 위 주소대로 서비스에 사용하시면 파일이 삭제됩니다.
+        // 꼭 자신의 웹 서버에 해당 파일을 복사해서 주소를 변경해 사용하세요.
 
     }
 }
